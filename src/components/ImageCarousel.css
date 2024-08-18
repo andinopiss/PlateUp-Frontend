@@ -1,0 +1,23 @@
+/* src/components/ImageCarousel.css */
+.image-carousel-container {
+    display: flex;
+    height: 1000px; /* Adjust the height based on your design */
+    overflow: hidden;
+}
+
+.carousel {
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.carousel img {
+    padding: 10px;
+    height: 33.333%; /* Adjust based on number of images */
+    width: 100%;
+    border-radius: 40px;
+    object-fit: cover;
+}
